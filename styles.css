@@ -1,0 +1,137 @@
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h1{
+    margin:120px 0 0 0;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Great Vibes', cursive, sans-serif;
+}
+h2{
+    /* margin: 0; */
+    font-weight: 100;
+    font-family: 'Josefin Sans', 'Roboto', sans-serif;
+    color: #00AF91;
+    font-size: 2.5rem;
+}
+h3{
+    font-weight: 400;
+    color: #00AF91;
+}
+
+.top-container{
+    background-color: rgb(227, 241, 246);
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    padding-top: 10px;
+    color: #00AF91;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+    
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.profile{
+    /* background-color: #ff8585; */
+    margin: auto;
+    padding: 40px 0;
+    width: 25%;
+
+}
+.profile img, .skills img{
+    border-radius: 100%;
+    width: 200px;
+    
+}
+.skills h2{
+    margin: 0;
+}
+
+.skills-row{
+    width: 50%;
+    text-align: left;
+    margin:60px auto 100px auto;
+    line-height: 2;
+
+}
+.skill-img1{
+    float: left;
+    width: 25%;
+    margin:-20px 30px 100px 0;
+   
+}
+.skills-row .web{
+    clear: left;
+}
+.skill-img2{
+    float: right;
+    width: 25%;
+    margin-top: 40px;
+    margin-left:30px;
+}
+.getintouch{
+    margin: 30px 0; 
+    line-height: 2;
+}
+.getintouch a {
+    border: none;
+    outline-style: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #00AF91;
+    color: white;
+    box-shadow: 1px 0 5px #000000;    
+    text-decoration: none;
+}
+.getintouch a:hover {
+
+    background-color: #5a5aed;
+    cursor: pointer;
+}
+
+.bottom-container a{
+    display: block;
+    text-decoration: none;
+    color: #5a5aed;
+}
+.bottom-container a:hover{
+    display: block;
+    text-decoration: underline;
+    color: #00AF91;
+}
+.bottom-container img{
+    margin-top: 30px;
+    width: 50px;
+}
+.bottom-container p{
+    background-color: #00AF91;
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-size:12px;
+}
+
+hr{
+    margin: 30px auto;
+    width: 3%;
+    border-style: none;
+    border-top: 5px dotted #cfcfcf;
+}
+
+
